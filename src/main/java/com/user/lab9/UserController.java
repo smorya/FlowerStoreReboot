@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/vi/user")
+@RequestMapping(path ="/api/vi/user")
 public class UserController {
     @Autowired
     private final UserService userService;
